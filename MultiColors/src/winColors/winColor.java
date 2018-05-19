@@ -13,11 +13,11 @@ public class winColor extends JFrame {
 		this.setSize(600, 600);
 		this.setContentPane(pan);
 		this.setVisible(true);
-	
+
+
 	}
-	
+
 	public static void main(String[] args) {
-		
 		winColor wc = new winColor();
 	}
 

@@ -9,7 +9,7 @@ import javax.swing.JPanel;
 
 public class panColor extends JPanel implements MouseMotionListener{
 	
-	Point P1,P2;
+	Point P1, P2;
 	private boolean isChanged,isFirst;
 	int n ;
 	Color cr;
