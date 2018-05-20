@@ -1,13 +1,21 @@
 # MultiColors
 L'objectif de cette exercice est de tester la capacité de l'etudiant de mettre à jour un code existant.
-Nous souhaitons developper un programme qui permet de calculer un dégradé de couleurs appliqué à 360 lines formant un cercle.
+Nous souhaitons developper un programme qui permet de calculer un dégradé de couleurs appliqué à 360 lignes formant un cercle.
+La video suivante illustre le resultat final :
+
 
 ## Notions théoriques
 
+Soit un cercle centré dans P1 (x1, x2), P2 (x2, y2) le point initial du cercle.
 Pour appliquer une couleur differente à chaque ligne, nous créons une méthode java ```private Color getColor(double r)``` qui permet
 de calculer une couleur en fonction du paramètre "r"
 
 r = indice de la ligne / nombre des lignes
+
+En fonction du parametre "r", les caracteristiques d'une couleur (Red - Green - Blue) sont calculées en utilisant l'algorithme décrie en bas.
+
+Pour chaque Position pMouse (xm, ym) du curseur de la souris à l'interieur du cercle, nous calculons la couleur correspondant à l'angle entre les vecteurs P1,P2 et P1,pMouse.
+L'algorithme en bas permet de calculer l'angle.
 
 ### Algorithme de getColor
 
