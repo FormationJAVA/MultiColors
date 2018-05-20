@@ -1,7 +1,7 @@
 # MultiColors
 L'objectif de cette exercice est de tester la capacité de l'etudiant de mettre à jour un code existant.
 Nous souhaitons developper un programme qui permet de calculer un dégradé de couleurs appliqué à 360 lignes formant un cercle.
-La video suivante illustre le resultat final :
+La [video YouTUBE](https://youtu.be/MGyDJvoIuTs) illustre le resultat final.
 
 
 ## Notions théoriques
