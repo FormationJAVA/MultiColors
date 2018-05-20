@@ -4,7 +4,7 @@ import javax.swing.JFrame;
 
 public class winColor extends JFrame {
 	
-	winColor()
+	public winColor()
 	{
 		panColor pan = new panColor();
 		
