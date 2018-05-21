@@ -21,7 +21,7 @@ L'algorithme en bas permet de calculer l'angle.
 
 ### Algorithme de getColor
 
-- Entrée : r = 0.0, 1.0
+- Entrée : r (valeurs entre 0.0 et 1.0)
 - Sortie : resultat = R, G, B
 
 - si r < 1/3 // la couleur est entre bleu et le vert
